@@ -5,6 +5,7 @@ import {useDropzone} from 'react-dropzone';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 
+
 const baseStyle = {
     flex: 1,
     display: 'flex',
@@ -182,6 +183,7 @@ function App() {
                 </div>
             </div>
         </div>
+
         <Footer/>
         </>
     );

@@ -1,5 +1,6 @@
 from flask import Flask, request
 from flask_cors import CORS, cross_origin
+
 import json
 import io
 from PIL import Image
@@ -20,7 +21,7 @@ import matplotlib.pyplot as plt
 from keras.models import Model, load_model
 from keras.preprocessing.text import Tokenizer
 from keras_preprocessing.sequence import pad_sequences
-from tensorflow.keras.utils import load_img
+from tensorflow.keras.preprocessing.image import load_img
 from keras.applications.xception import Xception, preprocess_input
 
 
